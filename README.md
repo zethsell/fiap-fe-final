@@ -1,8 +1,17 @@
-# React + Vite
+# Sobre o Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto consiste em um desenvolvimento deu mum blog em react, sem integração com backend.
 
-Currently, two official plugins are available:
+# Instalação e inicialização
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ferramentas utilizadas:
+
+- node 20
+- yarn
+
+### Passos para executar local:
+
+- Criar o arquivo "env.local" com as Variaveis : VITE_SPACE_ID e VITE_ACCESS_TOKEN
+- Inserir os valores das variaves de acordo com a apijey gerana no **contentful**
+- Executar o comando "yarn" para instalar as dependencias
+- Executar o comando "yarn dev" para executar o projeto localmento
